@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/removeads"
+            android:icon="@drawable/ic_gift"
+            android:title="Remove Ads" />
+
+        <item
+            android:id="@+id/rateus"
+            android:icon="@drawable/ic_star"
+            android:title="Rate Us" />
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share"
+            android:title="Share" />
+
+        <item
+            android:id="@+id/Feedback"
+            android:icon="@drawable/ic_review"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/moreapp"
+            android:title="More App(s)"
+            android:icon="@drawable/ic_app"/>
+        <item
+            android:id="@+id/privacy"
+            android:icon="@drawable/ic_privacy_policy"
+            android:title="Privacy Policy" />
+    </group>
+
+
+</menu>

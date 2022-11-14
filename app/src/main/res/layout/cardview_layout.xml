@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/card_view"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/_60sdp"
+    card_view:cardCornerRadius="5dp"
+    android:layout_margin="@dimen/_7sdp"
+    card_view:cardBackgroundColor="#28305A"
+    card_view:cardElevation="5dp"
+    card_view:cardMaxElevation="5dp"
+    card_view:contentPadding="5dp">
+
+    <LinearLayout
+        android:id="@+id/relative_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="3"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="0.2"
+            android:layout_marginTop="6dp"
+            android:src="@mipmap/ic_launcher" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"
+
+            android:layout_gravity="center"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/Apk_Name"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="6dp"
+            android:lines="1"
+            android:layout_toEndOf="@id/imageview"
+            android:layout_toRightOf="@id/imageview"
+            android:textColor="#ffffff" />
+        <!--<TextView
+            android:id="@+id/Apk_Package_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Apk_Name"
+
+            android:layout_marginLeft="15dp"
+            android:layout_toEndOf="@id/imageview"
+            android:layout_toRightOf="@id/imageview"
+            android:textColor="#14f6ac"
+            />-->
+</LinearLayout>
+
+        <CheckBox
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:padding="@dimen/_2sdp"
+            android:layout_margin="@dimen/_2sdp"
+
+            android:id="@+id/lock"
+           />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

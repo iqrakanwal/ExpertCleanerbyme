@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">ExpertCleanerbyme</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="byte_short">B</string>
+    <string name="action_settings">Settings</string>
+    <string name="junk_clean">junkclean</string>
+    <string name="process_clean">processclean</string>
+    <string name="apk_clean">apk clean</string>
+    <string name="tmp_clean">tempclean</string>
+    <string name="log_clean">log clean</string>
+    <string name="cache_clean">cache clean</string>
+    <string name="system_cache">system clean</string>
+    <string name="title_activity_junk_clean">建议清理</string>
+    <string name="do_junk_clean">do junk clean</string>
+    <!-- Suffix added to a number to signify size in kilobytes. -->
+    <string name="kilo_byte_short">KB</string>
+    <!-- Suffix added to a number to signify size in megabytes. -->
+    <string name="mega_byte_short">MB</string>
+    <!-- Suffix added to a number to signify size in gigabytes. -->
+    <string name="giga_byte_short">GB</string>
+    <!-- Suffix added to a number to signify size in terabytes. -->
+    <string name="tera_byte_short">TB</string>
+    <!-- Suffix added to a number to signify size in petabytes. -->
+    <string name="peta_byte_short">PB</string>
+    <string name="clean_file_size_suffix">%1$s%2$s</string>
+    <string name="started">started</string>
+
+
+</resources>
